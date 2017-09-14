@@ -1,12 +1,8 @@
 # Aqui se listan los imports
-from flask import Flask
-from flask import render_template
-from flask import request
 import mysql.connector
 import random
 import time
 
-app = Flask(__name__)
 
 def productor():
 
